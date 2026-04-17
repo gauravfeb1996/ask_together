@@ -3,10 +3,11 @@ import classNames from './ContentSection.module.css'
 
 function ContentSection({ posts }) {
   return (
-    <div className={classNames.contentSection}>
-      {posts.map((post, index) => (
+    <div>
+      {/* {posts.map((post, index) => (
         <PostCard key={index} userName={post.userName} postContent={post.postContent} />
-      ))}
+      ))} */}
+      test
 
     </div>
   );

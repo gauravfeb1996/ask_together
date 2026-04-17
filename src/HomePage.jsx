@@ -1,5 +1,6 @@
 import PageHeader from "./PageHeader/PageHeader";
 import ContentSection from "./ContentSection/ContentSection";
+import SideNavbar from "./components/SideNavbar/SideNavbar";
 
 function HomePage() {
     const posts = [
@@ -9,8 +10,11 @@ function HomePage() {
   ];
   return (
     <>
-        <PageHeader />
+      <PageHeader />
+      <div className="flex w-screen">
+        {/* <SideNavbar /> */}
         <ContentSection posts={posts} />
+      </div>
     </>   
   );
 }
